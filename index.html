@@ -2,14 +2,40 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Playlist Pre Test</title>
+    <link rel="stylesheet" href="css/index.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/normalize.css" media="screen" title="no title" charset="utf-8">
   </head>
   <body>
-      <select name="my_select" style="height: 40px; line-height: 100px;">
+    <section class="head">
+      <div class="topBorder"></div>
+    </section>
+    <section class="chooseTracks">
+      <form class="" action="playlist.html" method="post">
+        <legend class="chooseLegend">track bin</legend>
+        <input class="chooseButton"type="submit" name="name" value="choose tracks">
+      </form>
+    </section>
+    <section class="trackStage">
+      <img src="resources/track.jpg" alt="image not found" />
+      <img class="trackImage" src="images/division_bell.jpg" alt="not found" />
+      <img class="trackImage" src="images/thriller.jpg" alt="not found" />
+      <img class="trackImage" src="images/red.jpg" alt="not found" />
+
+    </section>
+    <section class="foot">
+      <p>&copy 2015 Tommy Pasque</p>
+    </section>
+
+
+      <!-- <select name="my_select" style="height: 40px; line-height: 100px;">
         <option name="reggae"> Select your genre </option>
         <option name="reggae"> Reggae </option>
         <option name="blues"> Blues </option>
-      </select>
+      </select> -->
 
   </body>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+  <script type="text/javascript" src="js/dom.js"></script>
+  <script type="text/javascript" src="js/logic.js"></script>
 </html>

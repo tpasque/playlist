@@ -1,0 +1,107 @@
+*{
+  vertical-align: top;
+  box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Avenir'; /*a name to be used later*/
+    src:"fonts/AvenirNextLTPro-Regular.otf"; /*URL to font*/
+}
+
+.head{
+  text-align: justify;
+}
+
+.topBorder{
+  position: relative;
+  display: inline-block;
+  width: 100vw;
+  height: 8vh;
+  background-color: #9B9A8D;
+}
+
+.chooseTracks{
+  text-align: justify;
+  display:inline-block;
+  background-color: #EEEEEE;
+  width:55vw;
+  height:86vh;
+}
+
+.chooseLegend{
+  position: relative;
+  display:block;
+  font-family: 'Avenir';
+  font-size: 50px;
+  color: #441E65;
+  top: 30vh;
+  left: 20vw;
+}
+
+.chooseButton{
+  position: relative;
+  display:block;
+  font-family: 'Avenir';
+  font-size: 20px;
+  color: #FFFFFF;
+  background-color: #353426;
+  border-radius: 5px;
+  width: 12vw;
+  height: 6vh;
+  top: 30vh;
+  left: 20.5vw;
+  border: none;
+}
+
+.buttoni:hover{
+  background-color: #441E65;
+}
+
+
+.trackStage{
+  text-align: justify;
+  position: relative;
+  float:right;
+  height: 86vh;
+  width:45vw;
+}
+
+.trackStage img:first-child{
+  position: relative;
+  display: block;
+  height: 86vh;
+  width:45vw;
+  opacity: 0.19;
+  z-index: 1;
+}
+
+.trackImage{
+  position: relative;
+  display:block;
+  height:25vh;
+  width: 12.5vw;
+  z-index: 2;
+  top:-82vh;
+  left:17vw;
+  margin-bottom: 10px;
+}
+
+.foot{
+  text-align: justify;
+  position: relative;
+  display:block;
+  font-size: 0px;
+  width: 100vw;
+  height: 6vh;
+  background-color:#9B9A8D;
+}
+
+.foot p{
+  position: relative;
+  float:left;
+  font-size: 20px;
+  font-family: 'Avenir';
+  color: #FFFFFF;
+  margin:0;
+  left: 10vw;
+  top: 1vh;
+}
